@@ -9,7 +9,16 @@ function toggleNavMenu(event){
 }
 
 (function(){
-    const images = ["1594798379708.jpg", "1594798178517.jpg", "IMG_7787.JPG", "IMG_7786.JPG", "IMG_7783.JPG" ];
+    const images = [
+        "IMG_2534.jpg", 
+        "IMG_2537.jpg", 
+        "IMG_2731.jpg",
+        "IMG_2726.jpg",
+        "IMG_2643.jpg",
+        "IMG_7787.JPG", 
+        "IMG_7786.JPG", 
+        "IMG_2274.JPG",
+     ];
     let imageIndex = 0
     setInterval(()=>{
         if(images.length-1>imageIndex)
