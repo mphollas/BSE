@@ -220,6 +220,14 @@ a .sns-icon{
   justify-content: center;
 }
 
+.dash-kun{
+  display: flex;
+}
+
+.circle-wrapper:before{
+  content: '';
+}
+
 .circle{
   height: 300px;
   width: 300px;
@@ -265,10 +273,9 @@ a .sns-icon{
   flex-direction: row;
 }
 
-.robo-kun{
-  display:none
+.robo-kun img{
+  
 }
-
 
 .pink {
   background-color: var(--baby-pink);
